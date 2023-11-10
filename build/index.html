@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link href="output.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold underline bg-red-200">
-      shai
-    </h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="output.css" rel="stylesheet" />
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+  <main class="h-full flex flex-1 justify-evenly">
+    <div class="wh-full border border-red-700 border-4 flex flex-col justify-evenly ">
+      <form action="#" method="post" class="border border-yellow-400 border-4 flex justify-evenly">
+        <div class="flex flex-col">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName">
+
+          <label for="emailAddress">Email Address</label>
+	        <input type="email" id="emailAddress" name="emailAddress">
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+        </div>
+        
+        <div class="flex flex-col">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName">
+
+          <label for="phoneNumber">Phone Number</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber">
+
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword">
+        </div>
+      </form>
+      <div class="text-center">
+        <button>Create Account</button>
+        <p>OR</p>
+        <button>Sign up with Google</button>
+        <p>Already have an account? <span><b>Log in</b></span></p>
+      </div>
+    </div>
+    <div class="wh-full border border-blue-700 border-4 bg-green-600"><h1>sample2</h1></div>
+  </main>
+</body>
 </html>
