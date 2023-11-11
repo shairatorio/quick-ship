@@ -16,11 +16,15 @@
     }
 
     input {
-        @apply border-2 border-gray-200 rounded mb-5 py-1 w-60 focus:outline-none;
+        @apply border-2 border-gray-200 rounded mb-5 py-1 w-64 focus:outline-none;
     }
     
     input:focus {
         @apply border-2 border-green-600;
+    }
+
+    label, p {
+        @apply text-gray-600;
     }
 
     
@@ -35,5 +39,9 @@
 @layer utilities {
     .wh-full {
         @apply w-full h-full;
+    }
+
+    .border-black {
+        @apply border border-gray-800 border-4
     }
 }
