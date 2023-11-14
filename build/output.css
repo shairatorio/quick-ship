@@ -445,6 +445,7 @@ video {
 html, 
     body {
   height: 100%;
+  overflow: hidden;
 }
 
 input {
@@ -575,20 +576,32 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
 
-.-top-24 {
-  top: -6rem;
+.-top-28 {
+  top: -7rem;
+}
+
+.left-16 {
+  left: 4rem;
 }
 
 .right-0 {
   right: 0px;
 }
 
-.top-2 {
-  top: 0.5rem;
+.top-14 {
+  top: 3.5rem;
+}
+
+.top-80 {
+  top: 20rem;
 }
 
 .mx-4 {
@@ -596,8 +609,24 @@ body {
   margin-right: 1rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.block {
+  display: block;
 }
 
 .inline {
@@ -606,10 +635,6 @@ body {
 
 .flex {
   display: flex;
-}
-
-.h-40 {
-  height: 10rem;
 }
 
 .h-5 {
@@ -628,6 +653,10 @@ body {
   width: 1.25rem;
 }
 
+.w-5\/12 {
+  width: 41.666667%;
+}
+
 .w-52 {
   width: 13rem;
 }
@@ -640,12 +669,12 @@ body {
   width: 58.333333%;
 }
 
-.w-full {
-  width: 100%;
+.w-9\/12 {
+  width: 75%;
 }
 
-.w-5\/12 {
-  width: 41.666667%;
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink {
@@ -690,11 +719,6 @@ body {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-blue-700 {
@@ -745,13 +769,17 @@ body {
   padding-left: 5rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -759,8 +787,8 @@ body {
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -777,9 +805,19 @@ body {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-green-200 {
+  --tw-text-opacity: 1;
+  color: rgb(187 247 208 / var(--tw-text-opacity));
+}
+
 .text-green-600 {
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.text-green-800 {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -790,10 +828,4 @@ body {
 .wh-full {
   height: 100%;
   width: 100%;
-}
-
-.border-black {
-  border-width: 4px;
-  --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
 }
