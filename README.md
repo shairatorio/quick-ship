@@ -1,6 +1,6 @@
 # Project: Sign Up Form
 
-![Screenshot of Desktop View](https://github.com/shairatorio/quick-ship/blob/main/build/img/login-page.png?raw=true)
+![Screenshot of Desktop View](https://github.com/shairatorio/quick-ship/blob/develop/build/img/login-page.png?raw=true)
 
 Developed a Sign Up Form Page using Tailwind Framework and a little bit of Javascript for my project in [The Odin Project](https://www.theodinproject.com/) Curriculum.
 
